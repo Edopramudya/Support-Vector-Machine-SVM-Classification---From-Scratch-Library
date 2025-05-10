@@ -7,9 +7,9 @@ Tujuan dari proyek ini adalah untuk mempelajari dan memvisualisasikan bagaimana 
 ## 📌 Isi Notebook
 Notebook ini dibagi menjadi 3 bagian utama:
 1. **SVM From Scratch (Dua Sampel Saja)**
-   Membangun SVM secara manual hanya dengan dua data perwakilan dari masing-masing kelas. Digunakan untuk menyusun sistem persamaan dan mencari parameter $w_1$, $w_2$, dan $b$ secara langsung.
+   Membangun SVM secara manual hanya dengan dua data perwakilan dari masing-masing kelas. Digunakan untuk menyusun sistem persamaan dan mencari parameter w1, w2, dan b secara langsung.
 2. **SVM From Scratch (Semua Data / Grid Search)**
-   Implementasi pencarian parameter optimal $w$ dan $b$ menggunakan **brute-force** (grid search). Diperiksa seluruh data untuk memastikan semua memenuhi constraint margin $y(w \cdot x + b) \geq 1$, lalu dipilih parameter dengan margin terkecil.
+   Implementasi pencarian parameter optimal w dan b menggunakan **brute-force** (grid search). Diperiksa seluruh data untuk memastikan semua memenuhi constraint margin y(w.x+b)>=1, lalu dipilih parameter dengan margin terkecil.
 3. **SVM dengan Scikit-learn**
    Menggunakan `SVC(kernel='linear')` dari Scikit-learn untuk klasifikasi data dan membandingkan hasilnya dengan implementasi manual. Disertai visualisasi garis pemisah (hyperplane), margin, dan support vector.
 
